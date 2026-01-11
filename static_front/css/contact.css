@@ -504,7 +504,7 @@ body{
                                         cursor: pointer;
                                         font-size: x-large;
                                         font-weight: bold;
-                                        padding: .8rem;
+                                        padding: 1.5rem;
                                         text-decoration: none;
                                         transition: all .5s ease;
                                     }
@@ -647,10 +647,11 @@ body{
 
                                 & h2{
                                     color: var(--secondaryColor);
-                                    font-size: xx-large;
+                                    font-size: 3rem;
                                 }
 
                                 & ul{
+                                    padding-bottom: 1rem;
 
                                     & li{
 

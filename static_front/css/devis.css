@@ -455,7 +455,7 @@ body{
                                     cursor: pointer;
                                     font-size: x-large;
                                     font-weight: bold;
-                                    padding: .8rem;
+                                    padding: 1.5rem;
                                     text-decoration: none;
                                     transition: all .5s ease;
                                 }

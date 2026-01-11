@@ -559,13 +559,13 @@ body{
                                             width: max-content;
 
                                             & img{
-                                                width: 3rem;
+                                                width: 2rem;
                                                 aspect-ratio: 4/4;
                                             }
 
                                             & span{
                                                 color: var(--extendColor);
-                                                font-size: x-large;
+                                                font-size: small;
                                                 font-weight: 570;
                                             }
                                         }
@@ -722,6 +722,45 @@ body{
                         & .full{
 
                             & .serviceList{
+
+                                & .cmdZone{
+                                    gap: .5rem;
+
+                                    & .filter{
+                                        height: 4rem;
+
+                                        & label{
+                                            font-size: xx-large;;
+                                            font-weight: bolder;
+                                        }
+
+                                        & .category{
+                                            height: 100%;
+                                            font-weight: bolder;
+                                        }
+
+                                        & .ok{
+                                            height: 100%;
+                                        }
+                                    }
+
+                                    & .search{
+                                        height: 4rem;
+
+                                        & input{
+                                            font-size: x-large;
+                                            font-weight: bolder;
+                                        }
+
+                                        & .go{
+                                            width: 30%;
+
+                                            & img{
+                                                height: 80%;
+                                            }
+                                        }
+                                    }
+                                }
 
                                 & .list{
 

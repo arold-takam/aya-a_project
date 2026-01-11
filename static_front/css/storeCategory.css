@@ -687,6 +687,239 @@ body{
                     width: 6rem;
                 }
             }
+
+            & .fullContent{
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                gap: 1rem;
+                width: 100%;
+                height: calc(100% - 8rem);
+                overflow: hidden;
+                padding-top: .5rem;
+
+                & .right{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+
+                    & .container{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        background-color: var(--mainColor);
+                        border-top-left-radius: 2rem;
+                        border-top-right-radius: 2rem;
+                        box-shadow: 0 0 8px var(--whiteColor);
+                        margin: 1rem;
+                        overflow: hidden scroll;
+                        scroll-behavior: smooth;
+
+                        & .full{
+                            position: relative;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            gap: 1rem;
+                            width: 100%;
+                            background-color: var(--whiteColor);
+
+                            & .serviceList{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                width: 100%;
+
+                                & h2{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 100%;
+                                    height: 6rem;
+                                    color: var(--mainColor);
+                                    font-size: xx-large;
+                                    text-align: center;
+                                    z-index: 50;
+                                }
+
+                                & .cmdZone{
+                                    gap: 1rem;
+                                    height: 8rem;
+
+                                    & .filter{
+                                        height: 4rem;
+
+                                        & label{
+                                            font-size: xx-large;
+                                        }
+
+                                        & .category{
+                                            height: 100%;
+                                            font-size: xx-large;
+                                            font-weight: bold;
+                                        }
+
+                                        & .ok{
+                                            height: 100%;
+                                        }
+                                    }
+
+                                    & .search{
+                                        height: 4rem;
+                                    }
+                                }
+
+                                & .productList{
+                                    position: sticky;
+                                    top: 0;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                    gap: 1rem;
+                                    width: 100%;
+                                    min-height: 100dvh;
+                                    background-color: var(--whiteColor);
+                                    padding: 3rem 1rem;
+
+                                    & .up{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        width: 100%;
+                                        padding:  0 2rem;
+
+                                        & h3{
+                                            color: var(--secondaryColor);
+                                            font-size: 3rem;
+                                        }
+
+                                        & .quantity{
+                                            color: var(--secondaryColor);
+                                            font-size: xx-large;
+                                            font-weight: bold;
+                                            transition: all .5s ease;
+                                        }
+                                    }
+
+                                    & .list{
+                                        flex-shrink: 0;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        justify-content: flex-start;
+                                        gap: 1rem;
+                                        width: 100%;
+                                        list-style: none;
+                                        overflow: scroll hidden;
+                                        scroll-behavior: smooth;
+
+                                        & .item{
+                                            flex-shrink: 0;
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            width: 50rem;
+                                            height: 24rem;
+                                            background-color: var(--mainColor);
+                                            border-radius: 2rem;
+                                            overflow: hidden;
+
+                                            & .image{
+                                                display: flex;
+                                                width: 50%;
+                                                height: 100%;
+                                                background: url("../ressources/image/nature9.jpg") center no-repeat;
+                                                border-top-right-radius: 2rem;
+                                                border-bottom-right-radius: 2rem;
+                                                background-size: cover;
+                                            }
+
+                                            & .infos{
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: flex-start;
+                                                justify-content: space-between;
+                                                width: 50%;
+                                                height: 90%;
+                                                background-color: var(--whiteColor);
+                                                border-radius: 1rem;
+                                                margin: 1rem;
+                                                padding: 1rem;
+
+                                                & h3{
+                                                    color: var(--mainColor);
+                                                    font-size: xx-large;
+                                                    font-weight: bolder;
+                                                }
+
+                                                & .star{
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: flex-start;
+                                                    gap: 1rem;
+                                                    width: 100%;
+                                                    list-style: none;
+
+                                                    & li{
+                                                        color: var(--secondaryColor);
+                                                        font-size: xx-large;
+                                                    }
+                                                }
+
+                                                & .price{
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    width: 100%;
+
+                                                    & b{
+                                                        color: var(--secondaryColor);
+                                                        font-size: xx-large;
+                                                    }
+                                                }
+
+                                                & .detail{
+
+                                                    & p{
+                                                        font-size: x-large;
+                                                    }
+                                                }
+
+                                                & .cta{
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    width: 100%;
+                                                    background-color: var(--mainColor);
+                                                    border-radius: 4rem;
+                                                    color: var(--whiteColor);
+                                                    font-size: xx-large;
+                                                    padding: 1rem;
+                                                    text-decoration: none;
+                                                }
+                                            }
+                                        }
+
+                                        &::-webkit-scrollbar{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &::-webkit-scrollbar{
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
     }
 }

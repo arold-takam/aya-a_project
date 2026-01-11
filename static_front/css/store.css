@@ -629,6 +629,20 @@ body{
 
                     & .container{
 
+                        & .hero{
+
+                            & h1{
+                                width: 90%;
+                                font-size: 4rem;
+                            }
+
+                            & p{
+                                width: 100%;
+                                font-size: 3rem;
+                                line-height: 5rem;
+                            }
+                        }
+
                         & .full{
 
                             & .productList{
