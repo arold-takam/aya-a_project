@@ -542,6 +542,7 @@ body{
                                     border-radius: 2rem;
                                     overflow: hidden;
                                     padding: 1rem;
+                                    transition: all 1s ease;
 
                                     & .reactions{
                                         display: flex;
@@ -772,6 +773,13 @@ body{
 
                                         & .reactions{
                                             gap: 4rem;
+
+                                            & li{
+
+                                                & img{
+                                                    width: 4rem;
+                                                }
+                                            }
                                         }
 
                                         & .infoLine{
