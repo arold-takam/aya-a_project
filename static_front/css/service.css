@@ -779,6 +779,10 @@ body{
                                                 & img{
                                                     width: 4rem;
                                                 }
+
+                                                & span{
+                                                    font-size: xx-large;
+                                                }
                                             }
                                         }
 
