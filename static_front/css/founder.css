@@ -335,7 +335,7 @@ body{
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            justify-content: center;
+                            justify-content: flex-start;
                             gap: 1rem;
                             width: 100%;
                             height: 100%;
@@ -620,6 +620,7 @@ body{
                         }
 
                         & .paginator{
+                            gap: 2rem;
 
                             & .onglet{
                                 display: flex;
@@ -631,11 +632,11 @@ body{
                                     align-items: center;
                                     justify-content: center;
                                     min-width: 24rem;
-                                    border-radius: 2rem;
+                                    border-radius: 4rem;
                                     border: 1px solid var(--whiteColor);
                                     color: var(--whiteColor);
-                                    font-size: x-large;
-                                    padding: 1rem;
+                                    font-size: xx-large;
+                                    padding: 2rem 1rem;
                                     text-decoration: none;
                                     transition: all .5s ease;
 
